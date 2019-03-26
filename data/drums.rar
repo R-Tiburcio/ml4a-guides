@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html class="ng-csp" data-placeholder-focus="false" lang="en" >
+	<head data-requesttoken="">
+		<meta charset="utf-8">
+		<title>
+		Ingo Vogelmann Cloud		</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="referrer" content="never">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+		<meta name="apple-itunes-app" content="app-id=1125420102">
+		<meta name="theme-color" content="#000000">
+		<link rel="icon" href="/index.php/apps/theming/favicon?v=7">
+		<link rel="apple-touch-icon-precomposed" href="/index.php/apps/theming/icon?v=7">
+		<link rel="mask-icon" sizes="any" href="/core/img/favicon-mask.svg" color="#000000">
+		<link rel="manifest" href="/index.php/apps/theming/manifest?v=7">
+		<link rel="stylesheet" href="/core/vendor/select2/select2.css?v=c980943f-7">
+<link rel="stylesheet" href="/core/vendor/jquery-ui/themes/base/jquery-ui.css?v=c980943f-7">
+<link rel="stylesheet" href="/apps/files_versions/css/versions.css?v=ca9f0d77-7">
+<link rel="stylesheet" href="/apps/files_pdfviewer/css/style.css?v=acb766c6-7">
+<link rel="stylesheet" href="/apps/files_videoplayer/css/style.css?v=62abc69f-7">
+<link rel="stylesheet" href="/apps/unsplash/css/login.css?v=872ccd9c-7">
+<link rel="stylesheet" href="/core/css/guest.css?v=c980943f-7">
+		<script nonce="bVJhSWFOQUVPVmEwN3c4MFpOZlovSFd4ZHk1TmFocGFDS0R5dThBQW04RT06NDJmdlhZQmxBQURTM1dGM05lYVdyeC8vRzIwS0kxbGlhY0traUtkQm80dz0=" defer src="/core/vendor/core.js?v=c980943f-7"></script>
+<script nonce="bVJhSWFOQUVPVmEwN3c4MFpOZlovSFd4ZHk1TmFocGFDS0R5dThBQW04RT06NDJmdlhZQmxBQURTM1dGM05lYVdyeC8vRzIwS0kxbGlhY0traUtkQm80dz0=" defer src="/index.php/js/core/merged-template-prepend.js?v=c980943f-7"></script>
+<script nonce="bVJhSWFOQUVPVmEwN3c4MFpOZlovSFd4ZHk1TmFocGFDS0R5dThBQW04RT06NDJmdlhZQmxBQURTM1dGM05lYVdyeC8vRzIwS0kxbGlhY0traUtkQm80dz0=" defer src="/core/search/js/search.js?v=c980943f-7"></script>
+<script nonce="bVJhSWFOQUVPVmEwN3c4MFpOZlovSFd4ZHk1TmFocGFDS0R5dThBQW04RT06NDJmdlhZQmxBQURTM1dGM05lYVdyeC8vRzIwS0kxbGlhY0traUtkQm80dz0=" defer src="/index.php/js/core/merged-share-backend.js?v=c980943f-7"></script>
+<script nonce="bVJhSWFOQUVPVmEwN3c4MFpOZlovSFd4ZHk1TmFocGFDS0R5dThBQW04RT06NDJmdlhZQmxBQURTM1dGM05lYVdyeC8vRzIwS0kxbGlhY0traUtkQm80dz0=" defer src="/apps/files_pdfviewer/js/previewplugin.js?v=c980943f-7"></script>
+<script nonce="bVJhSWFOQUVPVmEwN3c4MFpOZlovSFd4ZHk1TmFocGFDS0R5dThBQW04RT06NDJmdlhZQmxBQURTM1dGM05lYVdyeC8vRzIwS0kxbGlhY0traUtkQm80dz0=" defer src="/apps/files_videoplayer/js/viewer.js?v=c980943f-7"></script>
+<script nonce="bVJhSWFOQUVPVmEwN3c4MFpOZlovSFd4ZHk1TmFocGFDS0R5dThBQW04RT06NDJmdlhZQmxBQURTM1dGM05lYVdyeC8vRzIwS0kxbGlhY0traUtkQm80dz0=" defer src="/core/js/jquery-ui-fixes.js?v=c980943f-7"></script>
+<script nonce="bVJhSWFOQUVPVmEwN3c4MFpOZlovSFd4ZHk1TmFocGFDS0R5dThBQW04RT06NDJmdlhZQmxBQURTM1dGM05lYVdyeC8vRzIwS0kxbGlhY0traUtkQm80dz0=" defer src="/core/js/files/fileinfo.js?v=c980943f-7"></script>
+<script nonce="bVJhSWFOQUVPVmEwN3c4MFpOZlovSFd4ZHk1TmFocGFDS0R5dThBQW04RT06NDJmdlhZQmxBQURTM1dGM05lYVdyeC8vRzIwS0kxbGlhY0traUtkQm80dz0=" defer src="/core/js/files/client.js?v=c980943f-7"></script>
+<script nonce="bVJhSWFOQUVPVmEwN3c4MFpOZlovSFd4ZHk1TmFocGFDS0R5dThBQW04RT06NDJmdlhZQmxBQURTM1dGM05lYVdyeC8vRzIwS0kxbGlhY0traUtkQm80dz0=" defer src="/core/js/contactsmenu.js?v=c980943f-7"></script>
+		<link rel="stylesheet" href="/index.php/apps/theming/styles?v=7"/><script defer src="/index.php/apps/theming/js/theming?v=7" nonce="bVJhSWFOQUVPVmEwN3c4MFpOZlovSFd4ZHk1TmFocGFDS0R5dThBQW04RT06NDJmdlhZQmxBQURTM1dGM05lYVdyeC8vRzIwS0kxbGlhY0traUtkQm80dz0="></script>	</head>
+	<body id="body-login">
+		<noscript>
+	<div id="nojavascript">
+		<div>
+			This application requires JavaScript for correct operation. Please <a href="https://www.enable-javascript.com/" target="_blank" rel="noreferrer noopener">enable JavaScript</a> and reload the page.		</div>
+	</div>
+</noscript>
+		<div class="wrapper">
+			<div class="v-align">
+									<header role="banner">
+						<div id="header">
+							<div class="logo">
+								<h1 class="hidden-visually">
+									Ingo Vogelmann Cloud								</h1>
+																	<img src="/index.php/apps/theming/logo?v=7"/>
+															</div>
+						</div>
+					</header>
+								<main>
+					<div class="error">
+	<h2>Error</h2>
+	<ul>
+			<li>
+			<p>The requested share does not exist anymore</p>
+					</li>
+		</ul>
+</div>
+				</main>
+			</div>
+		</div>
+		<footer role="contentinfo">
+			<p class="info">
+				<a href="https://ingovogelmann.net" target="_blank" rel="noreferrer noopener">Ingo Vogelmann Cloud</a> – Secure, fast, easily accessible.			</p>
+		</footer>
+	</body>
+</html>
